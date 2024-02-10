@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/_15sdp"
+        tools:context=".presentation.choose_multiple_catalogue.ChooseMultipleCatalogueFragment">
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Choose Your Preferred Cataloguing Method: Text Input or Document Upload"
+            android:textColor="#676767"
+            android:textSize="14sp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/inputProductInfoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#EDEDED"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textview3"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageview1"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:letterSpacing="0.02"
+                android:text="Input Product Information"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/uploadProductInfoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#EDEDED"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:gravity="center_vertical"
+            app:layout_constraintTop_toBottomOf="@+id/inputProductInfoBtn"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/imageview2"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/document_upload_new"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:focusable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:letterSpacing="0.02"
+                android:text="Upload Product Document"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

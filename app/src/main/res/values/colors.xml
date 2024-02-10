@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+	<color name="colorPrimary">#2BF162</color>
+	<color name="colorPrimaryDark">#0084C2</color>
+	<color name="colorAccent">#242424</color>
+	<color name="colorControlHighlight">#9E9E9E</color>
+	<color name="colorControlNormal">#242424</color>
+
+	<color name="transparent">#00000000</color>
+	<color name="bg_color">#FFFFFF</color>
+
+	<color name="pdlg_message_color">@color/purple_700</color>
+	<color name="pdlg_title_color">@color/purple_700</color>
+	<color name="pdlg_color_black">#000000</color>
+	<color name="color_red">#dd4c38</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="app_blue">#FF174B71</color>
+	<color name="color_a30000">#a30000</color>
+	<color name="darker_gray">#DFDFDF</color>
+    <color name="pdlg_color_white">#FFFFFF</color>
+    <color name="pdlg_color_blue">#1976D2</color>
+    <color name="color_B9C9D8">#B9C9D8</color>
+    <color name="bottom_selector">#2BF162</color>
+</resources>

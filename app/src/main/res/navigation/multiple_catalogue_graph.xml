@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/multiple_catalogue_graph"
+    app:startDestination="@id/chooseMultipleCatalogueFragment">
+
+    <fragment
+        android:id="@+id/chooseMultipleCatalogueFragment"
+        android:name="com.example.wifimodule.presentation.choose_multiple_catalogue.ChooseMultipleCatalogueFragment"
+        android:label="ChooseMultipleCatalogueFragment" />
+    <fragment
+        android:id="@+id/addMultipleCatalogueFragment"
+        android:name="com.example.wifimodule.presentation.add_multiple_catalogue.AddMultipleCatalogueFragment"
+        android:label="AddMultipleCatalogueFragment" />
+
+    <fragment
+        android:id="@+id/catelogueSuccess"
+        android:name="com.example.wifimodule.presentation.success_catelog.SuccessCatelogueFragment"
+        android:label="AddMultipleCatalogueFragment" />
+</navigation>
